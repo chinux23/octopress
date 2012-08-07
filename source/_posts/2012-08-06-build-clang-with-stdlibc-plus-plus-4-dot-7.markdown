@@ -3,8 +3,6 @@ layout: post
 title: "Build Clang with stdlibc++ 4.7 in Mac OS"
 date: 2012-08-06 21:39
 comments: true
-sharing: true
-footer: true
 categories: [C++, Clang, GCC] 
 ---
 
