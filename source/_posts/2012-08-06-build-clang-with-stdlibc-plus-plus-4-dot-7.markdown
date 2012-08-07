@@ -3,23 +3,30 @@ layout: post
 title: "Build Clang with stdlibc++ 4.7 in Mac OS"
 date: 2012-08-06 21:39
 comments: true
+sharing: true
+footer: true
 categories: [C++, Clang, GCC] 
 ---
 
 Claim: I am no where close to a C++ expert, but just trying to learn things as life goes along. This post is for newbies like me trying to make clang work in C++11 mode with libstdc++.
 
 ## Motivation
+
 * C++11 has been out for a while now and I really want to get my hands on it to try it out.
-* Clang is a great Compiler (witht best-in-class quality and a lot of features). The thing that I really enjoy is the AST that you can literally travese the source code like a "tree". There are quite a few plugings that build on top of it
-** Vim Clang-Complete - quite cool, a really compiler generated complete, alot better than the ctags.
-** Syntax Highlight - i haven't really tried that in Vim but looks possible and definitely interesting.
+* Clang is a great Compiler (witht best-in-class quality and a lot of features). 
+* The thing that I really enjoy is the AST that you can literally travese the source code like a "tree". There are quite a few plugings that build on top of it
+* Vim Clang-Complete - quite cool, a really compiler generated complete, alot better than the ctags.
+* Syntax Highlight - i haven't really tried that in Vim but looks possible and definitely interesting.
 
 However, in order to use clang with C++11, i either have to use libc++ or rebuild clang with libstdc++4.6/7. This is kinda pain for a newbie like me. Things that I have tried that didn't work out:
+
 * MacPort GCC4.7 - install with sudo port install gcc47
-** This only give you the gcc toolchains, not the llvm/clang.
+* This only give you the gcc toolchains, not the llvm/clang.
 * MacPort Clang 3.2 - installs clang/llvm without gcc toolchains, that means I am back to the square one.
-* The post [Clang Startup Page](url "http://clang.llvm.org/get_started.html") is bit advanced for newbie (at that time, i didn't even know what is a GCC installation directory is. If you don't know like me, keep reading).
-* [Someone had similar experience before](url "http://lists.cs.uiuc.edu/pipermail/llvmdev/2012-April/048824.html"). Unforutunately that post is for ubuntu, not Mac OS. Can't just copy/paste! Oh yeah, forgot. **--gcc-tool-chain** configure flag doesn't work for by the way. Maybe I should send the problem to cfe?
+* The post <http://clang.llvm.org/get_started.html> is bit advanced for newbie (at that time, i didn't even know what is a GCC installation directory is. If you don't know like me, keep reading).
+* And someone has similar experience <http://lists.cs.uiuc.edu/pipermail/llvmdev/2012-April/048824.html>. 
+
+Unforutunately that post is for ubuntu, not Mac OS. Can't just copy/paste! Oh yeah, forgot. **--gcc-tool-chain** configure flag doesn't work for by the way. Maybe I should send the problem to cfe?
 * After spending sometime trial and error, finally I am able to compile a C++11 code with clang with libstdc++ 4.7. I am not sure if this way is correct though, or if there is a better way? if someone knows, please comment below.
 
 ## Preparetion
@@ -27,11 +34,14 @@ However, in order to use clang with C++11, i either have to use libc++ or rebuil
 
 ## Build GCC 4.7
 * Download GCC 4.7 from svn. (To keep things easy and concrete, I'll give example path as i.e $HOME/Repo/gcc47)
+```
 $ mkdir $HOME/Repo/buildgcc47
 $ cd $HOME/Repo/buildgcc47
 $ ../gcc47/configure
 $ make -j 8
 $ sudo make DESTDIR=/usr/local install
+```
+
 You need to watch for errors. How to solve error and successfully build gcc 4.7 is beyond the scope of this post, so you'll have to figure it out. There are currently some dependency for gcc to build, namely mpr, gmp, and mpc?? ( i don't remember the last one )
 The "make -j 8" is to build gcc with 8 jobs (I have 4 cores with hyperthread, you can choose a number instead of **8** based on your computer configuration)
 The last step will install your newly built gcc to /usr/local
@@ -111,15 +121,14 @@ End of search list.
 * if your header search path is different, go back and check to see where you did wrong
 * Now, if you try to compile, the linker will still linked to libstdc++ 4.2 that comes with Mac OS. To overcome that, i modify the bash\_profile
 
-``` [bash]
+```
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export LIBRARY_PATH=/usr/local/lib:/usr/local/bin/../lib/gcc/x86_64-apple-darwin12.0.0/4.7.1:/usr/local/bin/../lib/gcc:/usr/local/bin/../lib/gcc/x86_64-apple-darwin12.0.0/4.7.1/../../../:/lib:/usr/lib
 ```
 * Now, quite your terminal and restart. It should use the newly compiled clang with gcc 4.7 libstdc++
-
 # End Words
 * Now you can try in your main.cpp. It should just compile
-``` [c++]
+```
 #include <memory>
 #include <tuple>
 ```
