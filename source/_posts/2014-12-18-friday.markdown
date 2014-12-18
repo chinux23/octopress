@@ -8,7 +8,8 @@ categories:
 
 Problem: [here](http://cerberus.delosent.com:791/usacoprob2?a=MeRsP6R2hJO&S=friday)
 
-~~~ c++
+```c++
+
 /*
  ID: chinux1
  PROG: friday
@@ -103,4 +104,4 @@ int main() {
     
     return 0;
 }
-~~~
+```
