@@ -1,102 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Random Walking Assets</title>
-  <meta name="author" content="Chen Huang">
-
-  
-  <meta name="description" content="Started my programming training. Problem can be found here here ~~~c++
-/ ID: chinux1 PROG: ride LANG: C++11 / include include include using namespace &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://chinux23.github.com/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Random Walking Assets" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Random Walking Assets</a></h1>
-  
-    <h2>a blog of software engineer, dreamer and daddy</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:chinux23.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Random Walking Assets]]></title>
+  <link href="http://chinux23.github.com/atom.xml" rel="self"/>
+  <link href="http://chinux23.github.com/"/>
+  <updated>2014-12-18T11:35:33-05:00</updated>
+  <id>http://chinux23.github.com/</id>
+  <author>
+    <name><![CDATA[Chen Huang]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2014/12/18/ride/">Ride</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2014-12-18T11:08:00-05:00" pubdate data-updated="true">Dec 18<span>th</span>, 2014</time>
-        
-         | <a href="/blog/2014/12/18/ride/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Started my programming training.</p>
+  <entry>
+    <title type="html"><![CDATA[ride]]></title>
+    <link href="http://chinux23.github.com/blog/2014/12/18/ride/"/>
+    <updated>2014-12-18T11:08:00-05:00</updated>
+    <id>http://chinux23.github.com/blog/2014/12/18/ride</id>
+    <content type="html"><![CDATA[<p>Started my programming training.</p>
 
 <p>Problem can be found here <a href="http://cerberus.delosent.com:791/usacoprob2?a=rIDTCBDPpmd&amp;S=ride">here</a></p>
 
@@ -147,44 +69,15 @@ return 0;
 <p>}</p>
 
 <p>~~~</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/08/06/build-clang-with-stdlibc-plus-plus-4-dot-7/">Build Clang With Stdlibc++ 4.7 in Mac OS</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-06T21:39:00-04:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
-        
-         | <a href="/blog/2012/08/06/build-clang-with-stdlibc-plus-plus-4-dot-7/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Claim: I am no where close to a C++ expert, but just trying to learn things as life goes along. This post is for newbies like me trying to make clang work in C++11 mode with libstdc++.</p>
+  <entry>
+    <title type="html"><![CDATA[Build Clang with stdlibc++ 4.7 in Mac OS]]></title>
+    <link href="http://chinux23.github.com/blog/2012/08/06/build-clang-with-stdlibc-plus-plus-4-dot-7/"/>
+    <updated>2012-08-06T21:39:00-04:00</updated>
+    <id>http://chinux23.github.com/blog/2012/08/06/build-clang-with-stdlibc-plus-plus-4-dot-7</id>
+    <content type="html"><![CDATA[<p>Claim: I am no where close to a C++ expert, but just trying to learn things as life goes along. This post is for newbies like me trying to make clang work in C++11 mode with libstdc++.</p>
 
 <h2>Motivation</h2>
 
@@ -420,182 +313,16 @@ The last step will install your newly built gcc to /usr/local</p>
 <li>One last thing, I mean, I shouldn&#8217;t have to do all these just to get clang compiled with libstdc++. It allows me to set &#8211;gcc-tool-chain. That option supposed to work. Maybe it&#8217;s already working, i just need to modify the bash environment variables. I don&#8217;t know, i didn&#8217;t give it a try. If someone did try, or has a better way to do this, please post comments below</li>
 </ul>
 
-</div>
+]]></content>
+  </entry>
   
+  <entry>
+    <title type="html"><![CDATA[HelloWorld]]></title>
+    <link href="http://chinux23.github.com/blog/2012/08/06/helloworld/"/>
+    <updated>2012-08-06T21:10:00-04:00</updated>
+    <id>http://chinux23.github.com/blog/2012/08/06/helloworld</id>
+    <content type="html"><![CDATA[<p>Welcome to my blog. This is a test post</p>
+]]></content>
+  </entry>
   
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/08/06/helloworld/">HelloWorld</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-06T21:10:00-04:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
-        
-         | <a href="/blog/2012/08/06/helloworld/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Welcome to my blog. This is a test post</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/12/18/ride/">ride</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/08/06/build-clang-with-stdlibc-plus-plus-4-dot-7/">Build Clang with stdlibc++ 4.7 in Mac OS</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/08/06/helloworld/">HelloWorld</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/chinux23">@chinux23</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'chinux23',
-            count: 5,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("negatativezero", 4, true);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/negatativezero" class="twitter-follow-button" data-show-count="false">Follow @negatativezero</a>
-  
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Chen Huang -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-<script type="text/javascript">
-      var disqus_shortname = 'chinux23';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
