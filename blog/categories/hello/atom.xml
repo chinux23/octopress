@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: hello | Random Walking Assets]]></title>
+  <link href="http://chinux23.github.com/blog/categories/hello/atom.xml" rel="self"/>
+  <link href="http://chinux23.github.com/"/>
+  <updated>2014-12-18T12:04:35-05:00</updated>
+  <id>http://chinux23.github.com/</id>
+  <author>
+    <name><![CDATA[Chen Huang]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[HelloWorld]]></title>
+    <link href="http://chinux23.github.com/blog/2012/08/06/helloworld/"/>
+    <updated>2012-08-06T21:10:00-04:00</updated>
+    <id>http://chinux23.github.com/blog/2012/08/06/helloworld</id>
+    <content type="html"><![CDATA[<p>Welcome to my blog. This is a test post</p>
+]]></content>
+  </entry>
+  
+</feed>

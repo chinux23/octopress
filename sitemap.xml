@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://chinux23.github.com/blog/2012/08/06/helloworld/</loc>
+        <lastmod>2014-12-18T11:35:11-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://chinux23.github.com/blog/2012/08/06/build-clang-with-stdlibc-plus-plus-4-dot-7/
+        </loc>
+        <lastmod>2014-12-18T11:35:11-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chinux23.github.com/blog/2014/12/18/ride/</loc>
+        <lastmod>2014-12-18T11:48:38-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chinux23.github.com/blog/2014/12/18/beads/</loc>
+        <lastmod>2014-12-18T12:04:05-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chinux23.github.com/blog/2014/12/18/friday/</loc>
+        <lastmod>2014-12-18T12:03:17-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chinux23.github.com/blog/2014/12/18/gift1/</loc>
+        <lastmod>2014-12-18T12:01:40-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chinux23.github.com/blog/archives/</loc>
+        <lastmod>2014-12-18T12:04:05-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://chinux23.github.com/</loc>
+        <lastmod>2014-12-18T12:04:05-05:00</lastmod>
+    </url>
+</urlset>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Programming | Random Walking Assets]]></title>
+  <link href="http://chinux23.github.com/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="http://chinux23.github.com/"/>
+  <updated>2014-12-18T12:04:35-05:00</updated>
+  <id>http://chinux23.github.com/</id>
+  <author>
+    <name><![CDATA[Chen Huang]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ride]]></title>
+    <link href="http://chinux23.github.com/blog/2014/12/18/ride/"/>
+    <updated>2014-12-18T11:08:00-05:00</updated>
+    <id>http://chinux23.github.com/blog/2014/12/18/ride</id>
+    <content type="html"><![CDATA[<p>Started my programming training.</p>
+
+<p>Problem can be found here <a href="http://cerberus.delosent.com:791/usacoprob2?a=rIDTCBDPpmd&amp;S=ride">here</a></p>
+
+<p>```c++
+/<em>
+ ID: chinux1
+ PROG: ride
+ LANG: C++11
+ </em>/</p>
+
+<h1>include <iostream></h1>
+
+<h1>include <fstream></h1>
+
+<h1>include <string></h1>
+
+<p>using namespace std;</p>
+
+<p>unsigned long mod47(string name)
+{</p>
+
+<pre><code>unsigned long groupNumber = 1;
+for (int i = 0; i &lt; 6 &amp;&amp; i &lt; name.length(); i++) {
+    groupNumber = groupNumber * (name[i] - 64);
+}
+
+return groupNumber % 47;
+</code></pre>
+
+<p>}</p>
+
+<p>int main() {</p>
+
+<pre><code>ofstream fout ("ride.out");
+ifstream fin ("ride.in");
+string a, b;
+fin &gt;&gt; a &gt;&gt; b;
+
+if (mod47(a) == mod47(b)) {
+    fout &lt;&lt; "GO" &lt;&lt; endl;
+} else {
+    fout &lt;&lt; "STAY" &lt;&lt; endl;
+}
+
+return 0;
+</code></pre>
+
+<p>}</p>
+
+<p>```</p>
+]]></content>
+  </entry>
+  
+</feed>
